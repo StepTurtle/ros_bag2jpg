@@ -1,0 +1,7 @@
+<launch>
+
+    <node pkg="getjpg" type="bag2jpg.py" name="bag2jpg">
+        <rosparam command="load" file="$(find getjpg)/config/default.yml" />
+    </node>
+    
+</launch>
